@@ -28,7 +28,10 @@ var InfoCard = React.createClass({
 
     return (
         <span>
-            <span className="InfoCard-name">{this.props.name}</span>
+            <span className="InfoCard-name"
+                  onClick={this._onClick}>
+               {this.props.name}
+            </span>
       		<Button clickHandler={this._onClick}
                     expand={this.state.expand}/>
       		<div className={infoCardClasses}>

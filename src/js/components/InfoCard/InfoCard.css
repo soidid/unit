@@ -1,5 +1,6 @@
 .InfoCard-name {
 	color: rgb(223,91,92);
+	cursor: pointer;
 }
 .InfoCard-card{
 	width: 0px;
