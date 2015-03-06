@@ -1,0 +1,7 @@
+.Button {
+	color: rgb(223,91,92);
+	margin: 0px 6px 0px 3px;
+	cursor: pointer;
+	vertical-align: top;
+	display: inline-block;
+}

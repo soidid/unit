@@ -2,6 +2,9 @@
 
 var React = require('react/addons');
 
+var AppBar = require('../../components/AppBar/AppBar.jsx');
+var Article = require('../../components/Article/Article.jsx');
+
 var AppStore = require('../../stores/AppStore');
 var AppActions = require('../../actions/AppActions');
 
@@ -46,9 +49,13 @@ var App = React.createClass({
   	
     return (
       <div className="App">
+          <AppBar />
 
-       Hello App
-
+          <div className="App-main">
+              <div className="App-content">
+                <Article />
+              </div>
+          </div>
       </div>
     );
   }

@@ -1,0 +1,29 @@
+.Article {
+	font-size: 18px;
+	padding-bottom: 50px;
+}
+.Article-title {
+	color: rgb(53,55,54);
+	font-size: 30px;
+	margin: 50px 30px ;
+}
+.Article-paragraph {
+	color: rgb(40,40,40);
+	line-height: 1.8;
+	margin-bottom: 20px;
+	padding: 0px 10px;
+}
+.Article-test {
+    
+    
+}
+
+@media screen and (min-width: 600px){
+	.Article-title {
+       margin: 50px;
+	}
+	.Article-paragraph {
+		padding: 0px 50px;
+    }
+
+}
